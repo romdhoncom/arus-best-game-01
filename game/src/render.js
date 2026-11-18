@@ -121,6 +121,7 @@ export function createRenderer(canvas) {
     text(prompt, FIELD.width / 2, y + height - 40, 24, PALETTE.coin, 'center');
   }
 
+  // Arus title panel: steer the paper boat, dodge the rocks, catch the fireflies.
   const TITLE_LINES = ['Steer the paper boat down the river at dusk.', 'Dodge the rocks. Catch the fireflies. Move with ← → or A D. Pause with P.', ''];
   const PAUSED_LINES = ['The river will wait for you.'];
   const OVER_LINES = ['', ''];

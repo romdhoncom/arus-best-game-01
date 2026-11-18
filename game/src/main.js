@@ -126,6 +126,7 @@ function runGame() {
     }
   });
 
+  // Arus: announce the game name and how to start, for screen readers.
   announce('Arus. Press Space or click to start.');
   requestAnimationFrame(frame);
 }

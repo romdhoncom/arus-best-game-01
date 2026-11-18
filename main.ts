@@ -1,3 +1,6 @@
+// Arus: a paper-boat river arcade game. Steer the paper boat down a dusk river,
+// dodge the rocks and catch the fireflies for score. A re-theme of the kit starter
+// Block Dodger, built as plain static files in game/ for best-game-01.
 // A working best-game-01 entry (Node 22, standard library only): the game is this directory's
 // game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
 // modules, no library and no network request), and the program hands it in. It copies game/ and
@@ -28,7 +31,7 @@ if (existsSync(join(here, 'screenshots'))) cpSync(join(here, 'screenshots'), joi
 // The scorer's own caps (reference/gate.json): only text_max_bytes shapes the bytes; the others refuse an entry the
 // scorer would refuse (more than 4 screenshots or one over 256 KiB; more than 993 files in game/ or 48 MiB of game
 // files, in all, or a path under game/ over 1000 bytes: game/ counts beside /output's own 1000-entry cap, its
-// screenshots/ and dossier.json).
+// screenshots/ and dossier.json). Arus keeps its dossier well under the text cap.
 writeFileSync(
   join(out, 'dossier.json'),
   buildDossier(out, {

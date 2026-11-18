@@ -43,6 +43,7 @@ export const LEVEL = { seconds: 12, max: 12 };
 /** How many falling things can exist at once; the pool is allocated once, at boot. */
 export const POOL_SIZE = 64;
 
+// Arus dusk palette: deep river blues at dusk, warm paper boat, golden fireflies.
 export const PALETTE = {
   backdrop: '#0f1e33',
   sky: '#3b2f5e',
@@ -57,5 +58,5 @@ export const PALETTE = {
 
 export const FONT = 'system-ui, -apple-system, "Segoe UI", sans-serif';
 
-/** Where the best score is kept between visits (this browser only). */
+/** Where the best score is kept between visits (this browser only) — Arus best score. */
 export const BEST_KEY = 'arus.best';
